@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/form.css">
     <link rel="stylesheet" href="./css/global.css">
-    <title>My Inventory</title>
+    <title>Register</title>
 </head>
 <body>
     <div class="wrapper">
@@ -13,39 +13,39 @@
             <h4>Inventory</h4>
         </header>
         <main>
-            <form id="loginForm" action="" class="form-container">
+            <form id="registerForm" action="" class="form-container">
                 <h2 class="form-container__title">
-                    Welcome back!
+                    Create a new account
                 </h2>
                 <div class="input-container">
-                    <label for="userEmail">
-                        Email
+                    <label for="registerEmail">
+                        New email
                     </label>
                     <input 
-                        id="userEmail"
+                        id="registerEmail"
                         type="email" 
-                        placeholder="Email"
+                        placeholder="example@email.com"
                         required 
                     />
                 </div>
                 <div class="input-container">
-                    <label for="userPassword">
-                        Password
+                    <label for="registerPassword">
+                        New password
                     </label>
                     <input 
-                        id="userPassword"
+                        id="registerPassword"
                         type="password" 
                         placeholder="Password"
                         required 
                     />
                 </div>
-                <button type="submit" class="btn btn-login">
-                    Enter
+                <button type="submit" form="registerForm" class="btn btn-login">
+                    Create account
                 </button>
                 <div class="sign-in--container">
-                    <span>Don't have an account?</span>
-                    <a href="./register.html">
-                        Create a new one
+                    <span>Already have an account?</span>
+                    <a href="./index.html">
+                        Log In
                     </a>
                 </div>
             </form>

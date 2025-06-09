@@ -24,3 +24,13 @@ main {
     justify-content: center;
 }
 
+.btn {
+    font-weight: 500;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}

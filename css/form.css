@@ -33,6 +33,7 @@
     padding: 12px;
     border: 1px solid rgb(225, 219, 219);
     border-radius: 50px;
+    height: 40px;
     box-sizing: border-box;
 }
 
@@ -40,17 +41,9 @@
     outline: 1px solid aquamarine;
 }
 
-button {
+.btn-login {
     margin-bottom: 24px;
-    font-weight: 500;
-    height: 40px;
-    border: none;
-    border-radius: 50px;
     background-color: aquamarine;
-}
-
-button:hover {
-    cursor: pointer;
 }
 
 .sign-in--container {

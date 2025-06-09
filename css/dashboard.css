@@ -1,0 +1,47 @@
+header {
+    justify-content: space-between;
+}
+
+main {
+    display: block;
+    padding: 12px;
+}
+
+.product-form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    align-items: end;
+}
+
+.input-container {
+    margin-bottom: 0;
+}
+
+.btn-logout {
+    background-color: none;
+    border: 1px solid brown;
+    padding: 8px 12px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: 500;
+    color: brown;
+    text-decoration: none;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 24px;
+}
+
+thead {
+    background-color: #cff7e8;
+    font-size: 12px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
